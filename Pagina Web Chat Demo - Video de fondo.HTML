@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Web DEMO RingCX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chat-container {
+            width: 70%;
+            max-width: 200px;
+            background-color: #028eff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+    <h2>Bienvenido al Chat Web DEMO RingCX</h2>
+    <p>Haz clic en el ícono de chat para iniciar una conversación.</p>
+<p>MCM Tech-Co<p>
+</div>
+
+<!------- Script del Chat Web que genera RCX -->
+
+<head>
+<script>
+  (function(d) {
+    var cm = d.createElement('scr' + 'ipt'); cm.type = 'text/javascript'; cm.async = true;
+    cm.src = 'https://lhahqe12i5.chat.digital.ringcentral.com/chat/0ee1ced7f9ebcddc7857a214/loader.js';
+    var s = d.getElementsByTagName('scr' + 'ipt')[0]; s.parentNode.insertBefore(cm, s);
+  }(document));
+</script>
+
+
+<!-- Codigo para cambiar el video e imagen -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo de Video</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ocupa toda la altura de la pantalla */
+            overflow: hidden; /* Evita el desplazamiento */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white; /* Color del texto para visibilidad */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+       
+        video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Asegura que el video cubra toda la pantalla */
+            z-index: -2; /* Envía el video al fondo */
+        }
+
+     	
+        .content {
+            position: relative;
+            z-index: 1; /* Asegura que el texto esté por encima */
+        }
+
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="video-local.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+    <div class="content">
+       
+    </div>
+
+</body>
+</html>
